@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gdeer.mapmock">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="e951adaeec3b515f09bfe85b752b85a">
+        </meta-data>
+
+        <activity
+            android:name="com.gdeer.mapmock.MapActivity"
+            android:label="MapMock"
+            android:icon="@drawable/map_mock_icon"
+            android:taskAffinity="com.gdeer.mapmock.${applicationId}">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
