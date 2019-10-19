@@ -1,8 +1,6 @@
 apply plugin: 'com.android.library'
 // jitpack 上传
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.gdeeer'
-version='0.1'
 
 android {
     compileSdkVersion 28
