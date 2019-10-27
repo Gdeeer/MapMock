@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 // jitpack 上传
 apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.abc'
 
 android {
     compileSdkVersion 28
