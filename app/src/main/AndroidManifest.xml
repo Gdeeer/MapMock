@@ -28,6 +28,11 @@
             android:name="android.max_aspect"
             android:value="2.4" />
 
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="e951adaeec3b515f09bfe85b752db85a">
+        </meta-data>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
